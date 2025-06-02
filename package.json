@@ -1,0 +1,16 @@
+
+{
+  "name": "alyabot",
+  "version": "1.0.0",
+  "main": "alyabot.js",
+  "scripts": {
+    "start": "node alyabot.js",
+    "postinstall": "echo 📦 All dependencies installed successfully!"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.30.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
